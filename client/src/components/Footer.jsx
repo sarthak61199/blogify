@@ -1,10 +1,6 @@
 import React from "react";
 import { IconContext } from "react-icons";
-import {
-  FaInstagramSquare,
-  FaTwitterSquare,
-  FaFacebookSquare,
-} from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -13,15 +9,14 @@ function Footer() {
         <div className="footer">
           <IconContext.Provider
             value={{
-              color: "#000000",
-              size: "2.5rem",
-              style: { cursor: "pointer" },
+              color: "#cb51f3",
+              style: { cursor: "pointer", height: "2rem", width: "2rem" },
             }}
           >
             <div className="icons">
-              <FaInstagramSquare />
-              <FaTwitterSquare />
-              <FaFacebookSquare />
+              <FaInstagram />
+              <FaTwitter />
+              <FaFacebook />
             </div>
           </IconContext.Provider>
           <p className="bottom">
