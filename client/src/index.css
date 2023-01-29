@@ -240,10 +240,33 @@ body {
   letter-spacing: 0.1rem;
 }
 
+.post-text .author {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.post-text .by {
+  text-transform: lowercase;
+  font-size: 0.8rem;
+}
+
+.post-text .date {
+  font-size: 0.8rem;
+  margin-bottom: 0.4em;
+}
+
+.post-text .cat {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: var(--acc);
+  letter-spacing: 0.25rem;
+}
+
 .post-text .desc {
   padding-bottom: 0.5rem;
   font-size: 1rem;
-  text-overflow: ellipsis;
+  margin-top: 1rem;
 }
 
 .sidenav {
